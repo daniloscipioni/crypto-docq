@@ -7,19 +7,19 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld />
+      <Crypto />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Crypto from "./components/CryptoCurrencies.vue";
 
 export default {
   name: "App",
 
   components: {
-    HelloWorld,
+    Crypto,
   },
 
   data: () => ({
